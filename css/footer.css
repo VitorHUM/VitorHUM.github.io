@@ -1,0 +1,76 @@
+.footer {
+  background: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto {
+  font-size: 1.125rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+
+.footer-contato li {
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.footer-contato li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-copy {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #8f8f8f;
+}
+
+.footer-contato li::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: 1px;
+}
+
+.email li::before {
+  background: url("../img/email.svg") no-repeat center center;
+}
+
+.whats li::before {
+  background: url("../img/whats.svg") no-repeat center center;
+}
+
+.linkedin li::before {
+  background: url("../img/linkedin.svg") no-repeat center center;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
+  .footer-contato li::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
+}
