@@ -27,7 +27,7 @@
   position: relative;
 }
 
-.footer-contato li a {
+.footer-contato a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -41,7 +41,7 @@
 
 .footer-contato li::before {
   display: block;
-  content: "";
+  content: '';
   width: 24px;
   height: 24px;
   position: absolute;
@@ -50,15 +50,15 @@
 }
 
 .email li::before {
-  background: url("../img/email.svg") no-repeat center center;
+  background: url('../img/email.svg') no-repeat center center;
 }
 
-.whats li::before {
-  background: url("../img/whats.svg") no-repeat center center;
+.whatsapp li::before {
+  background: url('../img/whats.svg') no-repeat center center;
 }
 
 .linkedin li::before {
-  background: url("../img/linkedin.svg") no-repeat center center;
+  background: url('../img/linkedin.svg') no-repeat center center;
 }
 
 @media (max-width: 800px) {
