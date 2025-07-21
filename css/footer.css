@@ -50,15 +50,15 @@
 }
 
 .email li::before {
-  background: url('../img/email.svg') no-repeat center center;
+  background: url('/img/email.svg') no-repeat center center;
 }
 
 .whatsapp li::before {
-  background: url('../img/whats.svg') no-repeat center center;
+  background: url('/img/whats.svg') no-repeat center center;
 }
 
 .linkedin li::before {
-  background: url('../img/linkedin.svg') no-repeat center center;
+  background: url('/img/linkedin.svg') no-repeat center center;
 }
 
 @media (max-width: 800px) {
